@@ -3,7 +3,7 @@ builder-maven for kubesphere
 
 ## Dependency
 
-- maven: 3.8.4
+- maven: 3.8
 - openjdk: 11
 - git
 - docker
@@ -15,7 +15,7 @@ builder-maven for kubesphere
 Enter the directory and execute:
 
 ```bash
-docker build -f Dockerfile .
+docker build -t telan/builder-maven:latest -f Dockerfile .
 ```
 
 ## DockerHub
